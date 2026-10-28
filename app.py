@@ -4,14 +4,11 @@ import gradio as gr
 from google import genai
 from google.genai import types
 
-# Inicialización del cliente oficial de Google GenAI usando la clave de entorno yaneth-bi
 client = genai.Client(api_key=os.getenv("yaneth-bi"))
 
-# Modelo activo principal y de respaldo
 MODELO_ACTIVO = "gemini-3.6-flash"
 MODELO_RESPALDO = "gemini-2.5-flash"
 
-# System Prompt estructurado para la Agente Coordinadora Yaneth_BI y sus 4 subordinados
 SYSTEM_PROMPT = (
 """
 SYSTEM PROMPT: YANETH_BI (COORDINADORA DE INTELIGENCIA DE NEGOCIOS & ORQUESTADORA DE AGENTES)
