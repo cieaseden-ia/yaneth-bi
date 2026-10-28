@@ -1,17 +1,3 @@
-¡Hola! Con gusto reestructuré y actualicé el `SYSTEM_PROMPT` para la arquitectura de tu aplicación (`app.py`).
-
-A continuación tienes la nueva versión adaptada exactamente para **`yaneth_bi`** actuando como la **Agente Coordinadora Directora de Inteligencia de Negocios (BI)**, encargada de orquestar y sintetizar el trabajo de **cuatro agentes subordinados especializados**:
-
-1. **Agente de Relaciones Públicas (RP)**
-2. **Agente de Análisis Financiero**
-3. **Agente de Control de Costos**
-4. **Agente de Cadena de Suministro (*Supply Chain*)**
-
----
-
-### Código completo actualizado (`app.py`)
-
-```python
 import os
 import time
 import gradio as gr
