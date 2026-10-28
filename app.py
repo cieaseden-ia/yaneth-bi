@@ -6,8 +6,8 @@ from google.genai import types
 
 client = genai.Client(api_key=os.getenv("yaneth-bi"))
 
-MODELO_ACTIVO = "gemini-3.6-flash"
-MODELO_RESPALDO = "gemini-2.5-flash"
+MODELO_ACTIVO = "gemini-2.5-flash"
+MODELO_RESPALDO = "gemini-1.5-flash"
 
 SYSTEM_PROMPT = (
 """
